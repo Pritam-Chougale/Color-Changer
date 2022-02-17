@@ -1,4 +1,65 @@
-body{
-    background-color: lightblue; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+/*importing Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav*/
+nav{
+    width: 100%;
+    height:  75px;
+    background-color: #505050;
+    color: wheat;
+    line-height: 75px;
+    padding: 0px 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+7
+h4{
+    font-size: 20px;
+}
+
+ul{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+/* let's center a main*/
+.container{
+    padding-top:300px;
+    padding-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+
 }
