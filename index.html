@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Color Changer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- navbar-->
     <nav>
         <div class="nav-center">
-            <ul class="nav-link">
+            <h4>Color Changer on a Click</h4>
+            <ul class="nav-links">
                 <li>
                     <a href="index.html">Simple colors</a>
                 </li>
@@ -21,6 +22,19 @@
             </ul>
         </div>
     </nav>
-    <script src="script.js"></script>
+
+    <!-- main content -->
+    <main>
+        <div class="container">
+            <h2>
+                Current Background Color Code:
+                <span class="color"> #f1f5f8 </span>
+            </h2>
+            
+        </div>
+        <button class="btn btn-hero" id="btn">Click Me</button>
+    </main>
+    <!-- JavaScript -->
+    <script src="app.js"></script>
 </body>
 </html>
